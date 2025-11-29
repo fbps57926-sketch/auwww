@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+  background: #f0f0f0;
+}
+
+#login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #63a4ff 0%, #83eaf1 100%);
+}
+
+.login-container {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(60, 100, 180, 0.15);
+  width: 300px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  width: 100%;
+  background: #3786e1;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.7rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #296cb7;
+}
+
+.error {
+  color: red;
+  font-size: 0.95em;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+#main-page nav {
+  background: #296cb7;
+  color: #fff;
+  padding: 1em 0;
+}
+
+#main-page nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 0; padding: 0;
+}
+
+#main-page nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#main-page nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 500px;
+  margin: 2em auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 2em;
+  box-shadow: 0 0 10px rgba(44, 97, 199, 0.09);
+}
+
+main h2 {
+  margin-top: 0;
+}
+
+main ul {
+  list-style: square;
+  margin-left: 1.5em;
+}
+
+main a {
+  color: #296cb7;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1em;
+    margin: 1em;
+  }
+}

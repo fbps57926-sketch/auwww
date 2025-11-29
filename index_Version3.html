@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Game & Media Sosial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-page">
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="login-form" autocomplete="off">
+        <label for="username">Username</label>
+        <input type="text" id="username" required autofocus>
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+        <button type="submit">Login</button>
+        <div class="error" id="login-error"></div>
+      </form>
+    </div>
+  </div>
+
+  <div id="main-page" style="display: none;">
+    <nav>
+      <ul>
+        <li><a href="#" id="menu-home">Home</a></li>
+        <li><a href="#" id="menu-media">Media Sosial</a></li>
+        <li><a href="#" id="menu-logout">Logout</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Home Section -->
+      <section id="section-home">
+        <h2>Home</h2>
+        <p>Nama: <b>Dhani Global</b></p>
+        <h3>Menu Game</h3>
+        <ul>
+          <li>
+            <a href="https://www.crazygames.com/" target="_blank">Crazy Games</a>
+          </li>
+          <li>
+            <a href="https://poki.com/" target="_blank">Poki Games</a>
+          </li>
+        </ul>
+      </section>
+      <!-- Media Sosial Section -->
+      <section id="section-media" style="display: none;">
+        <h2>Media Sosial</h2>
+        <ul>
+          <li><a href="https://wa.me/628580725993" target="_blank">WhatsApp</a></li>
+          <li><a href="https://www.tiktok.com/@dhanigloball" target="_blank">TikTok</a></li>
+        </ul>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
